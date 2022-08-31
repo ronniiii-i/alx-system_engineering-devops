@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+“${BASH_SOURCE:-$0}”
