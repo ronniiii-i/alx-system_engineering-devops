@@ -12,5 +12,5 @@ do
         ((minutes++))
     done
     ((hours++))
-    minutes=0
+    minutes=1
 done
