@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#kills the process in task 7
+pid=$(pgrep -f '7-highlander')
+
+kill -SIGKILL "$pid"
