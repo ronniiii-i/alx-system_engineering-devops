@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# This script is displaying "Best School" 10 times using until
-n="Best School"
-i=0
-until [ $i == 10 ];
-do
-    echo "$n"
-    ((i++))
-done

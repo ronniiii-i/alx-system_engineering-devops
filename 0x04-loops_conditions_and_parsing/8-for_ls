@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# This script is displaying the contents of the directory
-list=$(ls)
-for file in $list; do
-    echo "$file" | cut -d '-' -f2
-done
